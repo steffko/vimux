@@ -1,0 +1,2 @@
+doc plugin README.md LICENSE usr/share/vim/addons
+debian/vim-vimux.yaml usr/share/vim/registry

@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+#override_dh_install:
+#	dh_install
+#	\
+#	install -d debian/vim-vimux/usr/share/vim/vimux
+#	cp -rf doc/ plugin/ README.md debian/vim-vimux/usr/share/vim/vimux
+#	\
+#	install -d debian/vim-vimux/usr/share/vim/registry
+#	cp -f debian/vim-vimux.yaml debian/vim-vimux/usr/share/vim/registry

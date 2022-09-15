@@ -1,0 +1,19 @@
+Source: vim-vimux
+Section: editors
+Priority: optional
+Maintainer: Steffen Kothe (Linutronix GmbH) <steffen.kothe@linutronix.de>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/preservim/vimux
+Vcs-Browser: https://github.com/preservim/vimux
+Vcs-Git: https://github.com/preservim/vimux.git
+Rules-Requires-Root: no
+
+Package: vim-vimux
+Architecture: all
+Depends: vim, vim-addon-manager, tmux, ${misc:Depends}
+Description: Vimux: easily interact with tmux from vim
+ Enable users of vim and tmux to issue commands from
+ vim to a tmux 'pane' or 'window' via the command mode
+ of the editor. For more information consult the official
+ documentation of vimux.

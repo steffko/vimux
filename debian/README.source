@@ -1,0 +1,28 @@
+vim-vimux for Debian
+-------------------
+
+Installation
+^^^^^^^^^^^^
+
+via vim-addon-manager
+~~~~~~~~~~~~~~~~~~~~~
+
+Install the vimux plugin with the following command manually:
+
+	vim-addon-manager -w install vimux
+
+Check the state of the installation issue:
+
+	vim-addon-manager | grep vimux
+
+via dpkg-reconfigure
+~~~~~~~~~~~~~~~~~~~~
+
+After an installation of the package through the Debian internal
+tooling, it is also possible to install vimux by issuing a dpkg-reconfigure
+on the package.
+
+	dpkg-reconfigure vim-vimux
+
+ -- Steffen Kothe (Linutronix GmbH) <steffen.kothe@linutronix.de>  Wed, 14 Sep 2022 20:28:17 +0200
+
